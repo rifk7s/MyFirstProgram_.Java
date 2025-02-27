@@ -12,7 +12,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Full Folder Structure
 Heres the full `folder tree structure.`
 
-    MYFIRSTPROGRAM_JAVA
+    MYFIRSTPROGRAM_.JAVA
     │── .vscode
     │   └── settings.json
     │── bin
@@ -23,3 +23,5 @@ Heres the full `folder tree structure.`
     │   ├── MyFirstProgram.class
     │   ├── MyFirstProgram.java
     │   ├── README.md
+
+#
