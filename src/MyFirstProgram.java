@@ -1,4 +1,4 @@
-//Import Library
+ //Import Library
 import java.util.Scanner; // Import the Scanner class to read user input
 import java.util.Random; // Import the Random class to generate random funfact
 
@@ -15,29 +15,29 @@ public class MyFirstProgram {
         // String ANSI_WHITE = "\u001B[37m";
 
         // Display a Welcome Message
-        System.out.println(ANSI_GREEN + "Hello World!");
+        String JavaVersion = System.getProperty("java.version");
+        System.out.println(ANSI_GREEN + "Hello World!" + ANSI_YELLOW + " Java Version: " + JavaVersion + ANSI_RESET);
 
         // User Input and Personalized Greeting
         Scanner scanner = new Scanner(System.in);
         System.out.print(ANSI_CYAN + "Please enter your name: " + ANSI_RESET);
         String name = scanner.nextLine();
-        System.out.println(
-                ANSI_GREEN + "Hello, " + ANSI_RESET + name + "!" + ANSI_YELLOW + " Welcome to Java programming.");
+        System.out.println(ANSI_GREEN + "Hello, " + ANSI_RESET + name + "!" + ANSI_YELLOW + " Welcome to Java programming.");
 
         // Array of Fun Facts About Java
         String[] funFacts = {
-                "Did you know that Java was originally called Oak?",
-                "Java was created by James Gosling at Sun Microsystems.",
-                "The first version of Java was released in 1995.",
-                "Java is used by over 9 million developers worldwide.",
-                "Java is platform-independent, which means it can run on any device with a Java Virtual Machine (JVM)."
+        "Did you know that Java was originally called Oak?",
+        "Java was created by James Gosling at Sun Microsystems.",
+        "The first version of Java was released in 1995.",
+        "Java is used by over 9 million developers worldwide.",
+        "Java is platform-independent, which means it can run on any device with a Java Virtual Machine (JVM)."
         };
 
         // Generate a random fun fact
         Random random = new Random();
         int randomIndex = random.nextInt(funFacts.length);
         String randomFunFact = funFacts[randomIndex];
-        System.out.println(ANSI_RED + randomFunFact + ANSI_RESET);
+        System.out.println(ANSI_RED + "Fun Fact: "  + randomFunFact + ANSI_RESET);
 
         scanner.close();
     }
