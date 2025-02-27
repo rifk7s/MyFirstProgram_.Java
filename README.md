@@ -16,12 +16,13 @@ Heres the full `folder tree structure.`
     │── .vscode
     │   └── settings.json
     │── bin
-    │   ├── MyFirstProgram_Java - Report.pdf
+    │   ├── MyFirstProgram_.Java - Report.pdf
     │   ├── MyFirstProgram.class
     │── src
-    │   ├── MyFirstProgram_Java - Report.pdf
+    │   ├── MyFirstProgram_.Java - Report.pdf
     │   ├── MyFirstProgram.class
     │   ├── MyFirstProgram.java
-    │   ├── README.md
+    │── README.md
+
 
 #
