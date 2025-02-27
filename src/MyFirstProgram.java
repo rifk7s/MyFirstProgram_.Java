@@ -10,10 +10,7 @@ public class MyFirstProgram {
         String ANSI_YELLOW = "\u001B[33m";
         String ANSI_RED = "\u001B[31m";
         String ANSI_RESET = "\u001B[0m";
-        // String ANSI_BLUE = "\u001B[34m";
-        // String ANSI_PURPLE = "\u001B[35m";
-        // String ANSI_WHITE = "\u001B[37m";
-
+        
         // Display a Welcome Message
         String JavaVersion = System.getProperty("java.version");
         System.out.println(ANSI_GREEN + "Hello World!" + ANSI_YELLOW + " Java Version: " + JavaVersion + ANSI_RESET);
